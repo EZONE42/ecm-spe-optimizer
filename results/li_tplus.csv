@@ -1,0 +1,14 @@
+quantity,value,unit,note
+R_b0,156.69,Ohm,EIS before (first -Im minimum)
+R_i0,464.92,Ohm,circle fit before
+R_b_ss,157.23,Ohm,EIS after
+R_i_ss,476.53,Ohm,circle fit after
+ASR_int_per_side,116.8,Ohm cm2,R_i0*0.5026/2
+I0_calc,80.44,uA,dV/(Rb0+Ri0)
+I0_first,70.70,uA,first sample 0.10 s
+I0_peak,74.36,uA,max at 0.30 s
+I_ss,26.53,uA,mean of last 600 s (sd 0.05); drift 0.07 uA/h
+CA_duration,6.0,h,README says 4 h
+t_plus_calcI0,0.111,-,
+t_plus_peakI0,0.147,-,recommended central value
+t_plus_firstI0,0.172,-,

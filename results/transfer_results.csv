@@ -1,0 +1,7 @@
+case,rows,papers,MAE_log,bias_log,fold_err,trend_rank_corr_median,n_series,opt_m_same
+A:C 염 유사체  PEO:LiFSI (B=LiTFSI와 같은 이미드 계열),45,4,0.58,0.3,3.8,0.09,1,0/1
+"A:C 염 유사체  PEO:LiBETI (이미드, 더 긴 불소 사슬)",83,2,0.66,-0.6,4.6,0.95,8,7/8
+A:C 염 다른계열 PEO:LiTfO (설폰산염),763,28,0.56,0.22,3.7,0.8,70,34/67
+D:B 고분자 유사체 P(EO-MO):LiTFSI (PEO 유사도 0.47),72,1,0.33,0.14,2.1,0.26,9,0/9
+D:B 고분자 유사체 PEC:LiTFSI (유사도 0.38),65,4,1.34,-1.12,21.9,-0.2,17,3/10
+D:B 고분자 다른계열 PTMC:LiTFSI (유사도 0.29),98,3,1.32,1.26,20.7,0.23,12,4/12
