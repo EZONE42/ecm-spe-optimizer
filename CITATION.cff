@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology in your research, please cite it as below."
+authors:
+  - family-names: "Lee"
+    given-names: "Jiwon"
+title: "ECM-SPE: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling"
+version: 1.0.0
+date-released: 2026-10-28
+url: "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+repository-code: "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+keywords:
+  - "solid polymer electrolyte"
+  - "equivalent circuit model"
+  - "bruce-vincent transference number"
+  - "transmission line model"
+  - "battery overpotential"
+  - "materials informatics"
+  - "rdkit"

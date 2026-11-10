@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecm-spe"
+version = "1.0.0"
+description = "Solid Polymer Electrolyte Composition Optimization via 4-Resistance Equivalent Circuit Modeling"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Jiwon Lee", email = "lee93188241@gmail.com" }
+]
+keywords = [
+    "solid-polymer-electrolyte",
+    "equivalent-circuit-model",
+    "battery-simulation",
+    "bruce-vincent-transference",
+    "transmission-line-model",
+    "rdkit",
+    "materials-informatics",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "rdkit>=2023.9.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+ecm-spe = "ecm_spe.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+Repository = "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+
+[tool.setuptools.packages.find]
+include = ["ecm_spe*"]

@@ -9,3 +9,7 @@ data/*.zip
 slprj/
 .DS_Store
 Thumbs.db
+*.egg-info/
+build/
+dist/
+.pytest_cache/
