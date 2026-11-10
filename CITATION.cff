@@ -3,11 +3,11 @@ message: "If you use this software or methodology in your research, please cite 
 authors:
   - family-names: "Lee"
     given-names: "Jiwon"
-title: "ECM-SPE: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling"
+title: "ECM-SPE Optimizer: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling"
 version: 1.0.0
 date-released: 2026-10-28
-url: "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
-repository-code: "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+url: "https://github.com/EZONE42/ecm-spe-optimizer"
+repository-code: "https://github.com/EZONE42/ecm-spe-optimizer"
 keywords:
   - "solid polymer electrolyte"
   - "equivalent circuit model"

@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ecm-spe"
+name = "ecm-spe-optimizer"
 version = "1.0.0"
 description = "Solid Polymer Electrolyte Composition Optimization via 4-Resistance Equivalent Circuit Modeling"
 readme = "README.md"
@@ -48,8 +48,8 @@ dev = [
 ecm-spe = "ecm_spe.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
-Repository = "https://github.com/EZONE42/ecm-spe-electrolyte-optimization"
+Homepage = "https://github.com/EZONE42/ecm-spe-optimizer"
+Repository = "https://github.com/EZONE42/ecm-spe-optimizer"
 
 [tool.setuptools.packages.find]
 include = ["ecm_spe*"]

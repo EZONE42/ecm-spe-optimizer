@@ -1,8 +1,8 @@
-# ECM-SPE: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling
+# ECM-SPE Optimizer: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling
 
-[![CI](https://github.com/EZONE42/ecm-spe-electrolyte-optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/EZONE42/ecm-spe-electrolyte-optimization/actions/workflows/ci.yml)
+[![CI](https://github.com/EZONE42/ecm-spe-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/EZONE42/ecm-spe-optimizer/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-22%20passed-brightgreen)](https://github.com/EZONE42/ecm-spe-electrolyte-optimization/actions)
+[![Tests](https://img.shields.io/badge/tests-22%20passed-brightgreen)](https://github.com/EZONE42/ecm-spe-optimizer/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -26,7 +26,7 @@
 ## 2. 아키텍처 및 리포지토리 구조 (Repository Structure)
 
 ```text
-ecm-spe-electrolyte-optimization/
+ecm-spe-optimizer/
 ├── ecm_spe/                              # [Core Package] 표준 파이썬 연구 라이브러리
 │   ├── __init__.py                       # 패키지 버전(1.0.0) 및 주요 API export
 │   ├── ecm.py                            # 4-저항 ECM, de Levie 전송선 모델(TLM), 농도분극 해석
@@ -174,9 +174,9 @@ python -m http.server 8080
 ```bibtex
 @software{Lee_ECM_SPE_2026,
   author = {Lee, Jiwon},
-  title = {{ECM-SPE: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling}},
+  title = {{ECM-SPE Optimizer: Solid Polymer Electrolyte Composition Optimization via Equivalent Circuit Modeling}},
   year = {2026},
-  url = {https://github.com/EZONE42/ecm-spe-electrolyte-optimization},
+  url = {https://github.com/EZONE42/ecm-spe-optimizer},
   version = {1.0.0}
 }
 ```
